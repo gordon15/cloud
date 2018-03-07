@@ -1,0 +1,16 @@
+server:
+  port: 1100
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+security:
+  basic:
+    enabled: true
+  user: 
+    name: gbadmin
+    password: gb2017
